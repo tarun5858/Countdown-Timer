@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/birthday-party-balloon-background-illustration-ai-generative-free-photo.jpg);
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 5vw;
+}
+.title{
+    text-align: center;
+    font-weight: 900;
+    margin-top: 2vw;
+}
+.row{
+    display: flex;
+    height: 100px;
+    width: 60%;
+    margin: 5vw auto;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.col input{
+    height: 4vw;
+    width: 8vw;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 8px;
+}
+.col label{
+    font-size: 18px;
+    font-weight: 800;
+}
